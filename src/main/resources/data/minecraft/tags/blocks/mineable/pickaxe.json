@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#lieonstudio:smithing_tables",
+      "required": false
+    }
+  ]
+}
