@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#lolmst:smithing_tables"
+            "tag": "lolmst:smithing_tables"
           }
         ]
       },
