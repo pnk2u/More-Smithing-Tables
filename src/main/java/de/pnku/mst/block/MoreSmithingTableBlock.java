@@ -9,12 +9,12 @@ public class MoreSmithingTableBlock extends SmithingTableBlock {
     public final String smithingtableType;
 
     public MoreSmithingTableBlock(MapColor colour, String smithingtableType) {
-        super(Properties.ofFullCopy(Blocks.SMITHING_TABLE).mapColor(colour));
+        super(Properties.copy(Blocks.SMITHING_TABLE).mapColor(colour));
         this.smithingtableType = smithingtableType;
     }
 
     public MoreSmithingTableBlock(MapColor colour, SoundType sound, String smithingtableType) {
-        super(Properties.ofFullCopy(Blocks.SMITHING_TABLE).mapColor(colour).sound(sound));
+        super(Properties.copy(Blocks.SMITHING_TABLE).mapColor(colour).sound(sound));
         this.smithingtableType = smithingtableType;
     }
 }
