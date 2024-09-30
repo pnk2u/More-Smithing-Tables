@@ -1,0 +1,81 @@
+{
+  "values": [
+    {
+      "structures": "#quad:is/oak",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:oak_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/spruce",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:spruce_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/birch",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:birch_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/jungle",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:jungle_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/acacia",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:acacia_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/dark_oak",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:dark_oak_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/mangrove",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:mangrove_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/cherry",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:cherry_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/bamboo",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:bamboo_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/crimson",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:crimson_smithing_table"
+      }
+    },
+    {
+      "structures": "#quad:is/warped",
+      "block_replacement": {
+        "targets": "minecraft:smithing_table",
+        "replacement": "lolmst:warped_smithing_table"
+      }
+    }
+  ]
+}
