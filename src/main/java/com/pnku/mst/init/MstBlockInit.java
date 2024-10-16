@@ -1,9 +1,6 @@
 package com.pnku.mst.init;
 
 import com.pnku.mst.block.MoreSmithingTableBlock;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.fabricmc.fabric.impl.datagen.FabricTagBuilder;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.Registry;
