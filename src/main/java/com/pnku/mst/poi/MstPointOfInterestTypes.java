@@ -20,9 +20,9 @@ public class MstPointOfInterestTypes {
                 .getPointOfInterestStatesToType();
 
         Holder<PoiType> toolsmithEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
-                .getHolder(PoiTypes.TOOLSMITH).get();
+                .get(PoiTypes.TOOLSMITH).get();
 
-        PoiType toolsmithPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.TOOLSMITH);
+        PoiType toolsmithPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.getValue(PoiTypes.TOOLSMITH);
 
         List<BlockState> toolsmithBlockStates = new ArrayList<BlockState>(toolsmithPoiType.matchingStates);
 

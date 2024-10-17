@@ -1,9 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "tag": "lieonstudio:smithing_tables"
-    }
+    "#lieonstudio:smithing_tables"
   ],
   "result": {
     "count": 1,

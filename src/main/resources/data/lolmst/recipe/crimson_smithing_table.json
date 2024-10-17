@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:crimson_planks"
-    },
-    "@": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": "minecraft:crimson_planks",
+    "@": "minecraft:iron_ingot"
   },
   "pattern": [
     "@@",
