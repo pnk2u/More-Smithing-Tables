@@ -1,7 +1,7 @@
-package com.pnku.mst.init;
+package de.pnku.mst.init;
 
-import com.pnku.mst.MoreSmithingTables;
-import com.pnku.mst.block.MoreSmithingTableBlock;
+import de.pnku.mst.MoreSmithingTables;
+import de.pnku.mst.block.MoreSmithingTableBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;

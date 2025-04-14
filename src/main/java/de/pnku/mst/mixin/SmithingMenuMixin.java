@@ -1,6 +1,6 @@
-package com.pnku.mst.mixin;
+package de.pnku.mst.mixin;
 
-import com.pnku.mst.block.MoreSmithingTableBlock;
+import de.pnku.mst.block.MoreSmithingTableBlock;
 import net.minecraft.world.inventory.SmithingMenu;
 import net.minecraft.world.level.block.state.BlockState;
 import org.spongepowered.asm.mixin.Mixin;

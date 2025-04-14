@@ -1,6 +1,7 @@
-package com.pnku.mst.init;
+package de.pnku.mst.init;
 
-import com.pnku.mst.block.MoreSmithingTableBlock;
+import de.pnku.mst.MoreSmithingTables;
+import de.pnku.mst.block.MoreSmithingTableBlock;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.Registry;
@@ -42,7 +43,7 @@ public class MstBlockInit {
     }
 
     private static void registerBlock(MoreSmithingTableBlock smithing_table) {
-        Registry.register(BuiltInRegistries.BLOCK, com.pnku.mst.MoreSmithingTables.asId(smithing_table.smithingtableType + "_smithing_table"), smithing_table);
+        Registry.register(BuiltInRegistries.BLOCK, MoreSmithingTables.asId(smithing_table.smithingtableType + "_smithing_table"), smithing_table);
         more_smithing_tables.add(smithing_table);
     }
 }

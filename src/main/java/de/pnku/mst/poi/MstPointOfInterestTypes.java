@@ -1,8 +1,9 @@
-package com.pnku.mst.poi;
+package de.pnku.mst.poi;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
-import com.pnku.mst.mixin.PoiTypesAccessor;
+import de.pnku.mst.init.MstBlockInit;
+import de.pnku.mst.mixin.PoiTypesAccessor;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
@@ -26,7 +27,7 @@ public class MstPointOfInterestTypes {
 
         List<BlockState> toolsmithBlockStates = new ArrayList<BlockState>(toolsmithPoiType.matchingStates);
 
-        for (Block block : com.pnku.mst.init.MstBlockInit.more_smithing_tables) {
+        for (Block block : MstBlockInit.more_smithing_tables) {
             ImmutableList<BlockState> blockStates = block.getStateDefinition().getPossibleStates();
 
             for (BlockState blockState : blockStates) {

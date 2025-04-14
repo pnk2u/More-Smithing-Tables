@@ -1,4 +1,4 @@
-package com.pnku.mst.block;
+package de.pnku.mst.block;
 
 import com.pnku.mst.MoreSmithingTables;
 import net.minecraft.core.registries.Registries;
