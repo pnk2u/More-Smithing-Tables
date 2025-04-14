@@ -1,5 +1,8 @@
-package com.pnku.mst;
+package de.pnku.mst;
 
+import de.pnku.mst.init.MstBlockInit;
+import de.pnku.mst.init.MstItemInit;
+import de.pnku.mst.poi.MstPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
 
@@ -8,9 +11,9 @@ public class MoreSmithingTables implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        com.pnku.mst.init.MstBlockInit.registerBlocks();
-        com.pnku.mst.init.MstItemInit.registerItems();
-        com.pnku.mst.poi.MstPointOfInterestTypes.init();
+        MstBlockInit.registerBlocks();
+        MstItemInit.registerItems();
+        MstPointOfInterestTypes.init();
     }
 
     public static ResourceLocation asId(String path) {

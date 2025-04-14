@@ -8,7 +8,8 @@
 		"${mod_authors}"
 	],
 	"contact": {
-		"homepage": "https://lieonlion.github.io/LieOnLion/",
+		"homepage": "https://www.pnku.de",
+		"email": "contact@pnku.de",
 		"sources": "https://github.com/pnk2u/More-Smithing-Tables",
 		"issues": "https://github.com/pnk2u/More-Smithing-Tables/issues"
 	},
@@ -17,7 +18,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.pnku.mst.MoreSmithingTables"
+			"de.pnku.mst.MoreSmithingTables"
 		]
 	},
 	"mixins": [
@@ -33,7 +34,6 @@
 	"custom": {
 		"modmenu": {
 			"links": {
-				"modmenu.youtube": "https://www.youtube.com/@lieonlion?sub_confirmation=1",
 				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
 			}
 		}

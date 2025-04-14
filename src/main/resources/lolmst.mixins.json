@@ -1,9 +1,9 @@
 {
   "required": true ,
-  "package": "com.pnku.mst.mixin" ,
+  "package": "de.pnku.mst.mixin" ,
   "compatibilityLevel": "JAVA_21" ,
   "mixins": [
-    "SmithingMenuMixin" ,
+    "SmithingMenuMixin",
     "PoiTypesAccessor"
   ] ,
   "injectors": {

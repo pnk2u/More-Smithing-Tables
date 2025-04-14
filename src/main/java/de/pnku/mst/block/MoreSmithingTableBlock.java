@@ -1,4 +1,4 @@
-package com.pnku.mst.block;
+package de.pnku.mst.block;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SmithingTableBlock;
