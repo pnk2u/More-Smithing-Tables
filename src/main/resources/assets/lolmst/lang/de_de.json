@@ -9,5 +9,6 @@
   "block.lolmst.cherry_smithing_table": "Kirschholzschmiedetisch" ,
   "block.lolmst.bamboo_smithing_table": "Bambusschmiedetisch" ,
   "block.lolmst.crimson_smithing_table": "Karmesinschmiedetisch" ,
-  "block.lolmst.warped_smithing_table": "Wirrschmiedetisch"
+  "block.lolmst.warped_smithing_table": "Wirrschmiedetisch" ,
+  "tag.item.lieonstudio.smithing_tables": "More Smithing Tables (Schmiedetische)"
 }
