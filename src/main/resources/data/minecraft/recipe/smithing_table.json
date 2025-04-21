@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "lolmst_variant_to_vanilla",
   "ingredients": [
     "#lieonstudio:smithing_tables"
   ],
