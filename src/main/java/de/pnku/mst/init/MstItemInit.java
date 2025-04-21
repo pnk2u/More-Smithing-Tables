@@ -12,7 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.core.Registry;
 
-import static com.pnku.mst.init.MstBlockInit.*;
+import static de.pnku.mst.init.MstBlockInit.*;
 
 public class MstItemInit {
     public static final BlockItem OAK_SMITHING_TABLE_I = itemFromBlock(OAK_SMITHING_TABLE);

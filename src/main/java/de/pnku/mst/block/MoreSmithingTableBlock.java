@@ -1,6 +1,6 @@
 package de.pnku.mst.block;
 
-import com.pnku.mst.MoreSmithingTables;
+import de.pnku.mst.MoreSmithingTables;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Blocks;
