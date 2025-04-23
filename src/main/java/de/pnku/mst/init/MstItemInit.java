@@ -17,6 +17,7 @@ import static de.pnku.mst.init.MstBlockInit.*;
 public class MstItemInit {
     public static final BlockItem OAK_SMITHING_TABLE_I = itemFromBlock(OAK_SMITHING_TABLE);
     public static final BlockItem DARK_OAK_SMITHING_TABLE_I = itemFromBlock(DARK_OAK_SMITHING_TABLE);
+    public static final BlockItem PALE_OAK_SMITHING_TABLE_I = itemFromBlock(PALE_OAK_SMITHING_TABLE);
     public static final BlockItem SPRUCE_SMITHING_TABLE_I = itemFromBlock(SPRUCE_SMITHING_TABLE);
     public static final BlockItem BIRCH_SMITHING_TABLE_I = itemFromBlock(BIRCH_SMITHING_TABLE);
     public static final BlockItem JUNGLE_SMITHING_TABLE_I = itemFromBlock(JUNGLE_SMITHING_TABLE);
@@ -39,7 +40,8 @@ public class MstItemInit {
     public static void registerItems() {
         registerItem(OAK_SMITHING_TABLE_I, Items.SMITHING_TABLE);
         registerItem(DARK_OAK_SMITHING_TABLE_I, OAK_SMITHING_TABLE_I);
-        registerItem(SPRUCE_SMITHING_TABLE_I, DARK_OAK_SMITHING_TABLE_I);
+        registerItem(PALE_OAK_SMITHING_TABLE_I, DARK_OAK_SMITHING_TABLE_I);
+        registerItem(SPRUCE_SMITHING_TABLE_I, PALE_OAK_SMITHING_TABLE_I);
         registerItem(BIRCH_SMITHING_TABLE_I, SPRUCE_SMITHING_TABLE_I);
         registerItem(JUNGLE_SMITHING_TABLE_I, BIRCH_SMITHING_TABLE_I);
         registerItem(ACACIA_SMITHING_TABLE_I, JUNGLE_SMITHING_TABLE_I);

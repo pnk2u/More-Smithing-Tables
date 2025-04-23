@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "smithing_tables",
+  "key": {
+    "#": "minecraft:dark_oak_planks",
+    "@": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "@@",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lolmst:dark_oak_smithing_table"
+  }
+}

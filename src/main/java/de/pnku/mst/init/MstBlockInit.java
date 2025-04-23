@@ -14,6 +14,7 @@ import java.util.List;
 public class MstBlockInit {
     public static final MoreSmithingTableBlock OAK_SMITHING_TABLE = new MoreSmithingTableBlock(MapColor.WOOD, "oak");
     public static final MoreSmithingTableBlock DARK_OAK_SMITHING_TABLE = new MoreSmithingTableBlock(MapColor.COLOR_BROWN, "dark_oak");
+    public static final MoreSmithingTableBlock PALE_OAK_SMITHING_TABLE = new MoreSmithingTableBlock(MapColor.COLOR_BROWN, "pale_oak");
     public static final MoreSmithingTableBlock SPRUCE_SMITHING_TABLE = new MoreSmithingTableBlock(MapColor.PODZOL, "spruce");
     public static final MoreSmithingTableBlock BIRCH_SMITHING_TABLE = new MoreSmithingTableBlock(MapColor.SAND, "birch");
     public static final MoreSmithingTableBlock JUNGLE_SMITHING_TABLE = new MoreSmithingTableBlock(MapColor.DIRT, "jungle");
@@ -30,6 +31,7 @@ public class MstBlockInit {
     public static void registerBlocks() {
         registerBlock(OAK_SMITHING_TABLE);
         registerBlock(DARK_OAK_SMITHING_TABLE);
+        registerBlock(PALE_OAK_SMITHING_TABLE);
         registerBlock(SPRUCE_SMITHING_TABLE);
         registerBlock(BIRCH_SMITHING_TABLE);
         registerBlock(JUNGLE_SMITHING_TABLE);
