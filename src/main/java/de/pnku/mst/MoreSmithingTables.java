@@ -16,7 +16,7 @@ public class MoreSmithingTables implements ModInitializer {
         MstPointOfInterestTypes.init();
     }
 
-    public static ResourceLocation asId(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    public static ResourceLocation withModId(String path) {
+        return ResourceLocation.tryBuild(MODID, path);
     }
 }
