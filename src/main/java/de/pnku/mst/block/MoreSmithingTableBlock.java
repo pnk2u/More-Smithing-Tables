@@ -9,15 +9,15 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.MapColor;
 
 public class MoreSmithingTableBlock extends SmithingTableBlock {
-    public final String smithingtableType;
+    public final String smithingTableType;
 
-    public MoreSmithingTableBlock(MapColor colour, String smithingtableType) {
+    public MoreSmithingTableBlock(MapColor colour, String smithingTableType) {
         super(Properties.ofFullCopy(Blocks.SMITHING_TABLE).mapColor(colour).setId(ResourceKey.create(Registries.BLOCK, MoreSmithingTables.asId(smithingtableType + "_smithing_table"))));
-        this.smithingtableType = smithingtableType;
+        this.smithingTableType = smithingTableType;
     }
 
-    public MoreSmithingTableBlock(MapColor colour, SoundType sound, String smithingtableType) {
+    public MoreSmithingTableBlock(MapColor colour, SoundType sound, String smithingTableType) {
         super(Properties.ofFullCopy(Blocks.SMITHING_TABLE).mapColor(colour).setId(ResourceKey.create(Registries.BLOCK, MoreSmithingTables.asId(smithingtableType + "_smithing_table"))).sound(sound));
-        this.smithingtableType = smithingtableType;
+        this.smithingTableType = smithingTableType;
     }
 }
