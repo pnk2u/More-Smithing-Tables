@@ -1,0 +1,15 @@
+{
+  "block.lolmst.oak_smithing_table": "Дубовий ковальський стіл",
+  "block.lolmst.spruce_smithing_table": "Смерековий ковальський стіл",
+  "block.lolmst.birch_smithing_table": "Березовий ковальський стіл",
+  "block.lolmst.jungle_smithing_table": "Тропічний ковальський стіл",
+  "block.lolmst.acacia_smithing_table": "Акацієвий ковальський стіл",
+  "block.lolmst.dark_oak_smithing_table": "Темно-дубовий ковальський стіл",
+  "block.lolmst.pale_oak_smithing_table": "Блідо-дубовий ковальський стіл",
+  "block.lolmst.mangrove_smithing_table": "Мангровий ковальський стіл",
+  "block.lolmst.cherry_smithing_table": "Вишневий ковальський стіл",
+  "block.lolmst.bamboo_smithing_table": "Бамбуковий ковальський стіл",
+  "block.lolmst.crimson_smithing_table": "Багряний ковальський стіл",
+  "block.lolmst.warped_smithing_table": "Химерний ковальський стіл",
+  "modmenu.descriptionTranslation.lolmst": "Додає більше варіантів ковальського стола."
+}
