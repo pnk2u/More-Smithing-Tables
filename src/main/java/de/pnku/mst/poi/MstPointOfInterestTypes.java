@@ -27,7 +27,7 @@ public class MstPointOfInterestTypes {
 
         List<BlockState> toolsmithBlockStates = new ArrayList<BlockState>(toolsmithPoiType.matchingStates);
 
-        for (Block block : MstBlockInit.more_smithing_tables) {
+        for (Block block : MstBlockInit.more_smithing_table_blocks) {
             ImmutableList<BlockState> blockStates = block.getStateDefinition().getPossibleStates();
 
             for (BlockState blockState : blockStates) {
