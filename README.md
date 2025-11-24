@@ -2,7 +2,7 @@
 # <img height='48' align=right src="./src/main/resources/icon.png"> <p align="center">&emsp;&emsp;&emsp; More Smithing Tables <sub><a title="More Smithing Tables on Modrinth" href="https://www.modrinth.com/mod/more-smithing-tables"><img width="40" src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a></sub> <a title="More Smithing Tables on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/more-smithing-tables"><sub><img width="40" src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></sub></a> </p>
 > <img align=left height="153" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Smithing-Tables/pres/logo/logo_c.png">  
 >  A mod adding wood variants for Minecraft's Smithing Table Block. <br><br><br><br>  
->  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Smithing-Tables/pres/mr_desc_banner.png"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
+>  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Smithing-Tables/pres/gh_readme_banner.png"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
 <br>  
 
 <a name="compatibility"></a>
