@@ -55,18 +55,17 @@ Currently available in:
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.3.0"></a>
-#### 1.3.0[*](#footnote-*):
-- `1.21.4⁺`: Add _**Pale Oak** Smithing Table_
-- **Full texture overhaul**: Fits the the vanilla texture much better and still follows vanilla planks/wood colors very closely
-- Group Smithing Table variant recipes in the recipe book to only take up a single spot
+<a name="1.3.1"></a>
+#### 1.3.1[*](#footnote-*):
+- `1.21.4(-11)`: Update to <ins>1.21.11</ins>
+- Add Ukrainian translation (Thanks to @[StarmanMine142](https://www.github.com/StarmanMine142))
 
-<h2><sub><sub><sup><ins>Download 1.3.0 + 1.21(.1)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Smithing Tables 1.3.0 + 1.21(.1)" href="https://modrinth.com/mod/more-smithing-tables/version/kjqh6XNU">
-<img width=26 src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a>
+<h2><sub><sub><sup><ins>Download 1.3.1 + 1.21(.1)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Smithing Tables 1.3.1 + 1.21(.1)" href="https://www.modrinth.com/mod/t3iWfx17/version/xh0KPfTT">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;More Smithing Tables 1.3.0 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-smithing-tables/files/6456375">
-<img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
+<a title="Download (Curseforge):&#10;More Smithing Tables 1.3.1 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-smithing-tables/files/7256490">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
 <!--CHANGELOG:END-->
