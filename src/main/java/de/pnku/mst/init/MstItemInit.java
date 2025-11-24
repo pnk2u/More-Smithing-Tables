@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -31,11 +32,11 @@ public class MstItemInit {
     public static final Item WARPED_SMITHING_TABLE_I = itemFromBlock(WARPED_SMITHING_TABLE);
     public static final List<Item> more_smithing_table_items = new ArrayList<>();
 
-    public static BlockItem itemFromBlock(MoreSmithingTableBlock moreSmithingTableBlock) {
+    public static BlockItem itemFromBlock(Block moreSmithingTableBlock) {
         return new BlockItem(moreSmithingTableBlock, setProperties(moreSmithingTableBlock));
     }
 
-    public static Item.Properties setProperties(MoreSmithingTableBlock moreSmithingTableBlock) {
+    public static Item.Properties setProperties(Block moreSmithingTableBlock) {
         return new Item.Properties()
                 .setId(ResourceKey.create(Registries.ITEM,BuiltInRegistries.BLOCK.getKey(moreSmithingTableBlock))).useBlockDescriptionPrefix();
     }

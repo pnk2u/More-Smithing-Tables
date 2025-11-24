@@ -12,12 +12,12 @@ public class MoreSmithingTableBlock extends SmithingTableBlock {
     public final String smithingTableType;
 
     public MoreSmithingTableBlock(MapColor colour, String smithingTableType) {
-        super(Properties.ofFullCopy(Blocks.SMITHING_TABLE).mapColor(colour).setId(ResourceKey.create(Registries.BLOCK, MoreSmithingTables.asId(smithingtableType + "_smithing_table"))));
+        super(Properties.ofFullCopy(Blocks.SMITHING_TABLE).mapColor(colour).setId(ResourceKey.create(Registries.BLOCK, MoreSmithingTables.withModId(smithingTableType + "_smithing_table"))));
         this.smithingTableType = smithingTableType;
     }
 
     public MoreSmithingTableBlock(MapColor colour, SoundType sound, String smithingTableType) {
-        super(Properties.ofFullCopy(Blocks.SMITHING_TABLE).mapColor(colour).setId(ResourceKey.create(Registries.BLOCK, MoreSmithingTables.asId(smithingtableType + "_smithing_table"))).sound(sound));
+        super(Properties.ofFullCopy(Blocks.SMITHING_TABLE).mapColor(colour).setId(ResourceKey.create(Registries.BLOCK, MoreSmithingTables.withModId(smithingTableType + "_smithing_table"))).sound(sound));
         this.smithingTableType = smithingTableType;
     }
 }
