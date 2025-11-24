@@ -4,7 +4,7 @@ import de.pnku.mst.init.MstBlockInit;
 import de.pnku.mst.init.MstItemInit;
 import de.pnku.mst.poi.MstPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 public class MoreSmithingTables implements ModInitializer {
     public static final String MODID = "lolmst";
@@ -16,7 +16,7 @@ public class MoreSmithingTables implements ModInitializer {
         MstPointOfInterestTypes.init();
     }
 
-    public static ResourceLocation withModId(String path) {
-        return ResourceLocation.tryBuild(MODID, path);
+    public static Identifier withModId(String path) {
+        return Identifier.tryBuild(MODID, path);
     }
 }
