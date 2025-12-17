@@ -3,7 +3,7 @@
   "group": "lolmst_variant_to_vanilla",
   "ingredients": [
     {
-      "tag": "lieonstudio:smithing_tables"
+      "tag": "lieonstudios:smithing_tables"
     }
   ],
   "result": {
