@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     {
-      "id": "#lieonstudio:smithing_tables",
+      "id": "#lieonstudios:smithing_tables",
       "required": false
     }
   ]
