@@ -1,3 +1,17 @@
+<a name="1.3.2"></a>
+### 1.3.2:
+- `1.21.11`: Fix _**Pale Oak** Smithing Table_ crafting recipe
+- Fix breaking Smithing Tables with Pickaxes not being faster (from `1.3.1`)
+- Fix crafting _Smithing Table_ variants into vanilla _Smithing Table_ not working (from `1.3.1`)
+
+<h2><sub><sub><sup><ins>Download 1.3.2 + 1.21.4(-11)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Smithing Tables 1.3.2 + 1.21.4(-11)" href="https://www.modrinth.com/mod/t3iWfx17/version/U3YKModX">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;1.3.2 + 1.21.4(-11) - More Smithing Tables" href="https://www.curseforge.com/minecraft/mc-mods/more-smithing-tables/files/7342847">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.3.1"></a>
 ### 1.3.1:
 - `1.21.4(-11)`: Update to <ins>1.21.11</ins>
