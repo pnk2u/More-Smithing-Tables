@@ -1,0 +1,15 @@
+{
+  "block.lolmst.oak_smithing_table": "オークの鍛冶台" ,
+  "block.lolmst.spruce_smithing_table": "トウヒの鍛冶台" ,
+  "block.lolmst.birch_smithing_table": "シラカバの鍛冶台" ,
+  "block.lolmst.jungle_smithing_table": "ジャングルの鍛冶台" ,
+  "block.lolmst.acacia_smithing_table": "アカシアの鍛冶台" ,
+  "block.lolmst.dark_oak_smithing_table": "ダークオークの鍛冶台" ,
+  "block.lolmst.mangrove_smithing_table": "マングローブの鍛冶台" ,
+  "block.lolmst.cherry_smithing_table": "サクラの鍛冶台" ,
+  "block.lolmst.bamboo_smithing_table": "竹の鍛冶台" ,
+  "block.lolmst.pale_oak_smithing_table": "ペールオークの鍛冶台" ,
+  "block.lolmst.crimson_smithing_table": "真紅の鍛冶台" ,
+  "block.lolmst.warped_smithing_table": "歪んだ鍛冶台" ,
+  "tag.item.lieonstudios.smithing_tables": "More Smithing Tables"
+}
