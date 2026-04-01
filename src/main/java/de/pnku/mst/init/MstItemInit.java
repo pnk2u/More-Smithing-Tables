@@ -2,7 +2,7 @@ package de.pnku.mst.init;
 
 import de.pnku.mst.MoreSmithingTables;
 import de.pnku.mst.block.MoreSmithingTableBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -54,7 +54,7 @@ public class MstItemInit {
         registerItem(BAMBOO_SMITHING_TABLE_I);
         registerItem(CRIMSON_SMITHING_TABLE_I);
         registerItem(WARPED_SMITHING_TABLE_I);
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(Items.SMITHING_TABLE, more_smithing_table_items.toArray(new Item[0])));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.insertAfter(Items.SMITHING_TABLE, more_smithing_table_items.toArray(new Item[0])));
     }
 
     private static void registerItem(Item smithingTableItem) {
